@@ -81,11 +81,9 @@ p {
 }
 
 .buttons button {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   font-weight: 700;
-
-  /* padding: 15px; */
   background: var(--dark-blue);
   border-radius: 50%;
   color: var(--light-grey);
@@ -127,7 +125,7 @@ p {
   justify-content: space-around;
 }
 
-.receipt {
+.thank-you-img {
   width: 200px;
 }
 
@@ -136,4 +134,29 @@ p {
   background: var(--dark-blue);
   padding: 5px 20px;
   border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+
+  .box {
+    /* height: 420px;
+    width: 420px; */
+    width: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .buttons button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .thank-you-img {
+    width: 150px;
+  }
 }
