@@ -15,5 +15,4 @@ submitBtn.addEventListener('click', () => {
   document.getElementById('rating-screen').style.display = 'none'
   document.getElementById('current-rating').innerHTML = currentRating
   document.getElementById('thank-you-screen').style.display = 'flex'
-  console.log('Thank you for rating ' + currentRating)
 })
